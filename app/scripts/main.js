@@ -945,6 +945,13 @@ var sfnav = (function() {
         returnUrl = 'https://' + urlParseArray[1] + '';
         return returnUrl;
       }
+      
+    if(url.indexOf("lightning.force") != -1)
+      {
+        returnUrl = url;
+        return returnUrl;
+      }
+
     return returnUrl;
   }
 
